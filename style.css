@@ -1,0 +1,16 @@
+:root{--ground:#F4F2EF;--surface:#FFFFFF;--ink:#0A0A0A;--muted:#5E5E5E;--rule:#E3E0DC}
+@media (prefers-color-scheme:dark){:root{--ground:#000000;--surface:#151515;--ink:#FFFFFF;--muted:#B4B4B4;--rule:#2A2A2A}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--ground);color:var(--ink);font:17px/1.55 -apple-system,BlinkMacSystemFont,"SF Pro Text",system-ui,sans-serif;-webkit-text-size-adjust:100%}
+main{max-width:680px;margin:0 auto;padding:48px 20px 64px}
+img.icon{border-radius:22px;display:block}
+h1{font-size:34px;line-height:1.15;margin:20px 0 6px;letter-spacing:-.01em}
+h2{font-size:21px;margin:36px 0 10px}
+p,li{color:var(--ink)}
+.tag{color:var(--muted);margin-top:0}
+.card{background:var(--surface);border-radius:22px;padding:6px 20px;margin:12px 0}
+.card p{margin:14px 0;padding-bottom:14px;border-bottom:1px solid var(--rule)}
+.card p:last-child{border-bottom:0}
+a{color:var(--ink);text-decoration-thickness:1px;text-underline-offset:3px}
+small,.muted{color:var(--muted)}
+footer{margin-top:40px;color:var(--muted);font-size:15px}
